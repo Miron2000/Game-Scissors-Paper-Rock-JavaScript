@@ -1,0 +1,48 @@
+.h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 2.5rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    .img-1 {
+        width: 20%;
+        transition: 1s;
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            background-color: red;
+        }
+    }
+    .img-2 {
+        width: 20%;
+        transition: 1s;
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            background-color: red;
+        }
+    }
+    .img-3 {
+        width: 20%;
+        transition: 1s;
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            background-color: red;
+        }
+    }
+}
+
+#result {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: red;
+}

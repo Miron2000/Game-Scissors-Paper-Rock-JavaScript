@@ -1,0 +1,15 @@
+{
+    "name": "game_scissors_rock_paper",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "scss:compile": "node-sass scss/base.scss css/index.css",
+        "css:watch": "npm run scss:compile && npm run scss:compile -- -w"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^4.13.1"
+    }
+}
